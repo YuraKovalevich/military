@@ -182,7 +182,7 @@ input::-webkit-input-placeholder { color: rgba(255, 255, 255, 0.6); }
     margin: 10px auto 200px;
     display: flex;
     width: 190px;
-    border-radius: 15px;
+    border-radius: 20px;
     gap: 5px;
     background-color: #6D5FC2;
 
@@ -197,9 +197,9 @@ input::-webkit-input-placeholder { color: rgba(255, 255, 255, 0.6); }
 }
 .login{
     display: flex;
-    margin: -4px;
+    margin: -7px;
     align-items: center;
-    padding: 5px;
+    padding: 10px;
     gap: 10px;
 }
 .loginU{
