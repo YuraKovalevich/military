@@ -24,6 +24,7 @@ body {
 }
 
 body {
+    font-family: Inter;
     font-size: 20px;
 }
 
@@ -140,7 +141,7 @@ input::-webkit-input-placeholder { color: rgba(255, 255, 255, 0.6); }
 .header__title{
     background-color: #F16969;
     padding: 10px 0 10px 10px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .main__container{
     display: flex;
@@ -156,38 +157,35 @@ input::-webkit-input-placeholder { color: rgba(255, 255, 255, 0.6); }
 }
 .header__item{
     list-style: inside;
-    padding-bottom: 10px;
+    padding: 10px 0 10px 10px;
 }
 .title{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .header__login{
     margin: 10px auto 200px;
     display: flex;
-    width: 200px;
-    border-radius: 10px;
+    width: 190px;
+    border-radius: 15px;
     gap: 5px;
     background-color: #6D5FC2;
 
 }
-.word{
-    padding-top: 4px;
-    text-align: center;
+.board{
+    padding-top: 7px;
+    padding-left: 9px;
     background-color: #498BFA;
-    font-size: 18px;
-    color: white;
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
-
 }
 .login{
     display: flex;
-    margin: 0 auto;
+    margin: -4px;
     align-items: center;
     padding: 5px;
-    gap: 5px;
+    gap: 10px;
 }
 .loginU{
     color: #000000;
