@@ -55,7 +55,14 @@ body {
 .header__container {
     min-height: 14px;
     align-items: center;
+
 }
+.header__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
 .header__first {
     min-height: 75px;
@@ -80,14 +87,14 @@ hr {
 }
 
 .header__name {
-    margin: 0 auto;
+    margin: 0 40px ;
     padding-top: 10px;
     text-align: center;
 }
 
 .header__text {
     margin-left: 20px;
-    width: 400px;
+    width: 150px;
 }
 
 .header__menu {
@@ -97,7 +104,6 @@ hr {
 
 }
 .header__hello{
-    padding: 10px 0 0 179px;
     line-height: 19px;
     font-weight: 700;
 }
