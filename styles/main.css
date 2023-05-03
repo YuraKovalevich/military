@@ -278,4 +278,7 @@ a:visited {
     color: black;
     font-weight: bold;
 }
+.main__center{
+    text-align: center;
+}
 
