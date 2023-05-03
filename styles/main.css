@@ -274,4 +274,8 @@ a:visited {
     /* Цвет посещённой ссылки */
     color: #000000;
 }
+.menu__item:hover{
+    color: black;
+    font-weight: bold;
+}
 
